@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>3DWireFrameTanks by www.cacodaemon.de</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body style="background-color: black" id="body">
+    <canvas id="screen" width="800px" height="480px" style="padding: 0; width: 100%; height: 100%"></canvas>
+</body>
+  <!-- <script src="https://raw.githubusercontent.com/corbanbrook/webgl-2d/master/webgl-2d.js"></script> -->
+  <script src="js/compiled.js"></script>
+  <script type="text/javascript">
+
+
+  window.onload = function () {
+      var game = new Game();
+      var screen = document.getElementById('screen');
+      screen.width = window.outerWidth / 1;
+      screen.height = window.outerHeight / 1;
+      game.run(screen);
+  };
+  </script>
+</html>

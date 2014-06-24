@@ -1,0 +1,15 @@
+{
+  "name": "3DWireframeTanks",
+  "version": "1.0.0",
+  "author": "Guido Krömer <mail@cacodaemon.de>",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-typescript": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-rename": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
